@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Kavoon&family=Mogra&family=Preahvihear&display=swap');
+
+body {
+    font-size: 23px;
+    background-image: url('/src/background.jpg');
+  }
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(218, 191, 132);
+    position: sticky;
+    top: 0;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+li {
+    /* float: left; */
+    border: 0.2px dotted;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 16px;
+    text-decoration: none;
+    
+}
+
+li a:hover {
+    background-color: rgb(66, 106, 116);
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.catImg {
+    height: 400px;
+    width: 100%;
+}
+
+.menu-content {
+    background-color:  #EFDECD ;
+    border-radius: 30px;
+    max-width: 810px;
+    padding: 55px;
+    margin: 0 auto;
+    box-shadow: 4px 5px 15px 20px burlywood;
+    
+}
+
+footer {
+    box-sizing: border-box;
+    background-color: #333;
+    width: 100%;
+    height: 56px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    margin-top: 45px;
+    border-radius: 10px;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+}
+
+.git {
+    display: flex;
+}
+
+.customer-review, .info-location, .info-hours {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(233, 208, 176);
+    border-radius: 30px;
+    border: 10px outset goldenrod; 
+    padding: 10px;
+}
+
+
+p, a {
+    /* font-family: 'Kavoon', cursive; */
+    /* font-family: 'Mogra', cursive; */
+    /* font-family: 'Combo', cursive; */
+    font-family: 'Preahvihear', sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Mogra', cursive;
+}

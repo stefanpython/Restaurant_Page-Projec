@@ -1,0 +1,1 @@
+(()=>{"use strict";function e(){return{banner:()=>{const e=document.getElementById("content"),n=document.createElement("div");n.classList.add("header"),n.innerHTML='<img class="catImg" src="/src/cat.png" alt="cat">',e.append(n)},navBar:()=>{const e=document.createElement("ul");console.log(e)}}}e().banner(),e().navBar()})();
