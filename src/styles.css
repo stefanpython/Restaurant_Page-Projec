@@ -42,10 +42,10 @@ li a:hover {
 .catImg {
     height: 400px;
     width: 100%;
-    filter: invert(20%);
+    filter: invert(10%);
 }
 
-.menu-content {
+.meniu-content {
     background-color:  #EFDECD ;
     border-radius: 30px;
     max-width: 810px;
