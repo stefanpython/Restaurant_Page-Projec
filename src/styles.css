@@ -42,6 +42,7 @@ li a:hover {
 .catImg {
     height: 400px;
     width: 100%;
+    filter: invert(20%);
 }
 
 .menu-content {
