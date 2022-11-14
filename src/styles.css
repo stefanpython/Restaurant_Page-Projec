@@ -2,7 +2,8 @@
 
 body {
     font-size: 23px;
-    background-image: url('/src/background.jpg');
+    background-image: url('/src/images/background2.jpg');
+    
   }
   
 ul {
@@ -10,7 +11,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(218, 191, 132);
+    background-color: rgb(0, 109, 117);
     position: sticky;
     top: 0;
     margin-bottom: 50px;
@@ -32,7 +33,7 @@ li a {
 }
 
 li a:hover {
-    background-color: rgb(66, 106, 116);
+    background-color: rgb(214, 203, 105);
 }
 
 .active {
@@ -42,7 +43,7 @@ li a:hover {
 .catImg {
     height: 400px;
     width: 100%;
-    filter: invert(10%);
+    
 }
 
 .meniu-content {
@@ -51,7 +52,7 @@ li a:hover {
     max-width: 810px;
     padding: 55px;
     margin: 0 auto;
-    box-shadow: 4px 5px 15px 20px burlywood;
+    box-shadow: 4px 5px 15px 20px rgb(189, 99, 76);
     
 }
 
@@ -76,12 +77,13 @@ footer {
     display: flex;
 }
 
-.customer-review, .info-location, .info-hours {
+.customer-review, .info-location, .info-hours,
+.burger-meniu {
     max-width: 400px;
     margin: 0 auto;
     background-color: rgb(233, 208, 176);
     border-radius: 30px;
-    border: 10px outset goldenrod; 
+    border: 10px outset rgb(189, 99, 76); 
     padding: 10px;
 }
 
@@ -96,4 +98,21 @@ p, a {
 
 h3 {
     font-family: 'Mogra', cursive;
+}
+
+hr {
+    border: 2px groove rgb(189, 63, 63);
+    box-shadow: 10px 5px 17px rgb(180, 41, 41);
+    
+}
+
+.menuImg {
+    height: 400px;
+    width: 100%;
+    border-radius: 50%/100px 100px 80px 80px;
+}
+
+h3, h4 {
+    display: flex;
+    justify-content: center;
 }
