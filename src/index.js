@@ -18,5 +18,7 @@ meniu.addEventListener('click', () => {
     document.querySelector('.meniu-content').innerHTML = "";
     document.querySelector('.meniu-content').remove();
     
-    mainMeniu()
+    mainMeniu();
 });
+
+

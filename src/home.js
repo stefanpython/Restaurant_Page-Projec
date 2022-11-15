@@ -13,7 +13,7 @@ export function homeMeniu() {
     const navBar = () => {
         const ul = document.createElement('ul');
         ul.innerHTML = `
-        <li><a class="active" href="#home"><button id="home">Home</button></a></li>
+        <li><a href="#home"><button id="home">Home</button></a></li>
         <li><a href="#menu"><button id="meniu">Menu</button></a></li>
         <li><a href="#contact"><button id="contact">Contact</button></a></li>`;
 

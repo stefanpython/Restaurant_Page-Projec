@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Combo&family=Kavoon&family=Mogra&family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Kavoon&family=Mogra&family=Griffy&family=Preahvihear&display=swap');
 
 body {
     font-size: 23px;
@@ -19,7 +19,6 @@ ul {
 }
 
 li {
-    /* float: left; */
     border: 0.2px dotted;
 }
 
@@ -27,7 +26,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 4px 16px;
+    padding: 1px;
     text-decoration: none;
     
 }
@@ -78,13 +77,17 @@ footer {
 }
 
 .customer-review, .info-location, .info-hours,
-.burger-meniu {
+.burger-meniu, .drinks-meniu {
     max-width: 400px;
     margin: 0 auto;
     background-color: rgb(233, 208, 176);
     border-radius: 30px;
     border: 10px outset rgb(189, 99, 76); 
     padding: 10px;
+}
+
+.drinks-meniu {
+    margin-top: 10px;
 }
 
 
@@ -115,4 +118,34 @@ hr {
 h3, h4 {
     display: flex;
     justify-content: center;
+    
+}
+
+h4 {
+    font-family: 'Griffy', cursive;
+}
+
+button {
+    border: none;
+    height: 30px;
+    width: 150px;
+    font-family: 'Mogra', cursive;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+button:hover {
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+
+#price {
+    font-weight: 600;
+}
+
+#title {
+    background-color: rgba(187, 126, 51, 0.336);
+    border-radius: 20px;
+    height: 40px;
+    padding-top: 5px;
 }
