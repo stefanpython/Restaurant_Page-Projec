@@ -1,4 +1,5 @@
 export function mainMeniu() {
+
     // Burgers meniu
     const content = document.getElementById('content');
 
@@ -66,6 +67,7 @@ export function mainMeniu() {
     container.append(drinksMeniu);
 
     //Fish meniu
+
     const fishMeniu = document.createElement('div');
     fishMeniu.classList.add('fish-meniu');
 
@@ -91,9 +93,5 @@ export function mainMeniu() {
     <p id="price" style="margin-left: 300px;">$17.00</p>`;
 
     container.append(fishMeniu);
-
-
     content.append(container);
-    
-    return { burgers }
 }

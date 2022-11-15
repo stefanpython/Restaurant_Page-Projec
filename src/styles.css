@@ -42,7 +42,8 @@ li a:hover {
 .catImg {
     height: 400px;
     width: 100%;
-    
+    background-image: linear-gradient(to bottom, #d16ba5af, #c777b89f, #b983caa6, #aa8fd896, #9a9ae19a, #8aa7eca6, #a879f491, #eff86998, #52d0fe9a, #41dfff86, #46eefa8a, #fb5fa894);
+    border-radius: 520px;
 }
 
 .meniu-content {
@@ -77,7 +78,8 @@ footer {
 }
 
 .customer-review, .info-location, .info-hours,
-.burger-meniu, .drinks-meniu, .fish-meniu {
+.burger-meniu, .drinks-meniu, .fish-meniu, .contact-title,
+.master-chef, .side-chef, .assistant {
     max-width: 400px;
     margin: 0 auto;
     background-color: rgb(233, 208, 176);
@@ -86,7 +88,7 @@ footer {
     padding: 10px;
 }
 
-.drinks-meniu, .fish-meniu {
+.drinks-meniu, .fish-meniu,.master-chef, .side-chef, .assistant {
     margin-top: 20px;
 }
 
@@ -113,6 +115,12 @@ hr {
     height: 400px;
     width: 100%;
     border-radius: 50%/100px 100px 80px 80px;
+}
+
+.contactImg {
+    height: 200px;
+    width: auto;
+    border-radius: 150px;
 }
 
 h3, h4 {
