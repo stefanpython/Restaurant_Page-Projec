@@ -5,7 +5,7 @@ export function homeMeniu() {
     const banner = () => {
         const div = document.createElement('div');
         div.classList.add('header');
-        div.innerHTML = '<img class="catImg" src="/src/images/cat.png" alt="cat">';
+        div.innerHTML = '<img class="catImg" src="/dist/images/cat.png" alt="cat">';
     
         content.append(div);
     }

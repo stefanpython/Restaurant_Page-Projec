@@ -12,7 +12,7 @@ export function contactMeniu() {
     masterChef.classList.add('master-chef');
     masterChef.innerHTML = `
     <h4>Master Chef Catsosurimoko</h4>
-    <img class="contactImg" src="/src/images/contact1.jpg" alt="">
+    <img class="contactImg" src="/dist/images/contact1.jpg" alt="">
     <p>Supreme Chef Leader</p>
     <p>498-998-9921</p>
     <p>lazyCat@ilikeToSleep.com</p>
@@ -22,7 +22,7 @@ export function contactMeniu() {
     sideChef.classList.add('side-chef');
     sideChef.innerHTML = `
     <h4>Side Chef Meowunchi Katamoro</h4>
-    <img class="contactImg" src="/src/images/contact2.jpg" alt="">
+    <img class="contactImg" src="/dist/images/contact2.jpg" alt="">
     <p>Part-time Special Cook</p>
     <p>442-442-5515</p>
     <p>sleepingCat@ILikeToPlay.com</p>
@@ -32,7 +32,7 @@ export function contactMeniu() {
     assistant.classList.add('assistant');
     assistant.innerHTML = `
     <h4>Assistant Pebbles</h4>
-    <img class="contactImg" src="/src/images/contact3.jpg" alt="">
+    <img class="contactImg" src="/dist/images/contact3.jpg" alt="">
     <p>Lovely accountant</p>
     <p>477-88-9831</p>
     <p>lovelyPebbles@IScratchThings.com</p>
