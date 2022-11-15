@@ -38,8 +38,7 @@ export function mainMeniu() {
     container.append(burgerMeniu);
 
     // Drinks meniu
-    const meniu = document.querySelector('.meniu-content');
-
+    
     const drinksMeniu = document.createElement('div');
     drinksMeniu.classList.add('drinks-meniu');
 
@@ -66,14 +65,35 @@ export function mainMeniu() {
 
     container.append(drinksMeniu);
 
+    //Fish meniu
+    const fishMeniu = document.createElement('div');
+    fishMeniu.classList.add('fish-meniu');
+
+    fishMeniu.innerHTML = `
+    <br>
+    <h3 id="title">Fish</h3>
+
+    <h4>SwordFish katsu</h4>
+    <img class="menuImg" src="/src/images/fish1.jpg" alt="">
+    <p>soy glaze, shaved brussels sprout, xo vinaigrette, jasmine rice</p>
+    <p id="price" style="margin-left: 300px;">$19.00</p>
+    <br><hr>
+
+    <h4>Catfish Meowunchy</h4>
+    <img class="menuImg" src="/src/images/fish2.jpg" alt="">
+    <p>sweet potato, salsa macha, jicacma, peanut</p>
+    <p id="price" style="margin-left: 300px;">$24.00</p>
+    <br><hr>
+
+    <h4>Pawsfish Catigaro</h4>
+    <img class="menuImg" src="/src/images/fish3.jpg" alt="">
+    <p>kimchi stew, tofu, enoki mushroom, housemade "spam"</p>
+    <p id="price" style="margin-left: 300px;">$17.00</p>`;
+
+    container.append(fishMeniu);
+
+
     content.append(container);
-
-
-    
-        
-
-    
-    
     
     return { burgers }
 }
