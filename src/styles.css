@@ -42,7 +42,7 @@ li a:hover {
 .catImg {
     height: 400px;
     width: 100%;
-    background-image: linear-gradient(to bottom, #d16ba5af, #c777b89f, #b983caa6, #aa8fd896, #9a9ae19a, #8aa7eca6, #a879f491, #eff86998, #52d0fe9a, #41dfff86, #46eefa8a, #fb5fa894);
+    background-image: linear-gradient(to bottom, #6bb4d186, #c777bc77, #cac58375, #d8ac8f96, #e1b49a62, #ecdd8aa6, #f4a07991, #eff8696c, #feae5271, #e3ff416c, #46eefa62, #fb5fa894);
     border-radius: 520px;
 }
 
@@ -58,7 +58,7 @@ li a:hover {
 
 footer {
     box-sizing: border-box;
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.884);
     width: 100%;
     height: 56px;
     padding-top: 15px;
@@ -79,7 +79,7 @@ footer {
 
 .customer-review, .info-location, .info-hours,
 .burger-meniu, .drinks-meniu, .fish-meniu, .contact-title,
-.master-chef, .side-chef, .assistant {
+.master-chef, .side-chef, .assistant, .map-contact {
     max-width: 400px;
     margin: 0 auto;
     background-color: rgb(233, 208, 176);
@@ -88,7 +88,7 @@ footer {
     padding: 10px;
 }
 
-.drinks-meniu, .fish-meniu,.master-chef, .side-chef, .assistant {
+.drinks-meniu, .fish-meniu,.master-chef, .side-chef, .assistant, .map-contact {
     margin-top: 20px;
 }
 
@@ -121,6 +121,7 @@ hr {
     height: 200px;
     width: auto;
     border-radius: 150px;
+    margin-left: 120px;
 }
 
 h3, h4 {
@@ -157,4 +158,8 @@ button:hover {
     border-radius: 20px;
     height: 40px;
     padding-top: 5px;
+}
+
+iframe {
+    border-radius: 10px;
 }

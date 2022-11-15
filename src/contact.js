@@ -38,10 +38,17 @@ export function contactMeniu() {
     <p>lovelyPebbles@IScratchThings.com</p>
     `;
 
+    const map = document.createElement('div');
+    map.classList.add('map-contact');
+    map.innerHTML = `
+    <h3>Map Location</h3>
+    <iframe width="400" height="310" id="gmap_canvas" src="https://maps.google.com/maps?q=Alexanderplatz%201&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>`;
+
     container.append(contactUs);
     container.appendChild(masterChef);
     container.appendChild(sideChef);
     container.appendChild(assistant);
+    container.appendChild(map);
    
     content.append(container);
 };

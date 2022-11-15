@@ -31,7 +31,7 @@ export function homeMeniu() {
         reviewsDiv.classList.add('customer-review');
         reviewsDiv.innerHTML = `
         <h3 class="hours">Testimony</h3>
-        <p>“The food was excellent and so was the service. I had the mushroom risotto with scallops which was awesome. My wife had a burger over greens (gluten-free) which was also very good. They were very conscientious about gluten allergies. The restaurant has a vey nice ambiance and a cozy bar.” <strong>HawaiiNut02760</strong> </p>`;
+        <p style="font-style: italic;">“The food was excellent and so was the service. I had the mushroom risotto with scallops which was awesome. My wife had a burger over greens (gluten-free) which was also very good. They were very conscientious about gluten allergies. The restaurant has a vey nice ambiance and a cozy bar.” <strong>HawaiiNut02760</strong> </p>`;
 
         meniuContent.append(reviewsDiv);
 
@@ -57,7 +57,7 @@ export function homeMeniu() {
         // Location info div
         const infoLocation = document.createElement('div');
         infoLocation.classList.add('info-location');
-        infoLocation.innerHTML = `<h3 class="location">Location</h3>
+        infoLocation.innerHTML = `<h3 class="location">Address</h3>
         <p class="address">4295 State Highway</p>
         <p class="address">North Eastham, MA 02642</p>
         <p class="address">Phone: 508.255.3893</p><br>
